@@ -22,8 +22,6 @@ pub fn calories_per_elf(input: &str) -> Vec<i32> {
 
 #[cfg(test)]
 mod tests {
-    use std::env::current_dir;
-
     use super::*;
 
     #[test]
@@ -79,6 +77,6 @@ mod tests {
             sum = sum + num;
         }
 
-        assert_eq!(sum, 1);
+        assert_eq!(sum, 203905);
     }
 }
